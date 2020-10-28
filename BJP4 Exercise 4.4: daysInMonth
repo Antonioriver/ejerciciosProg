@@ -1,0 +1,15 @@
+import java.util.*;
+public int daysInMonth(int x){
+    if(x%2!=0&&x!=2){
+        if(x>0&&x<8)
+        return 31;
+        if(x>8&&x<12)
+        return 30;
+    } else{
+        if(x>3&&x<7)
+        return 30;
+        if(x>7&&x<13)
+        return 31;
+    }
+    return 28;
+}
