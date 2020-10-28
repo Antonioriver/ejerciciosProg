@@ -1,0 +1,30 @@
+import java.util.*;
+public void season(int a, int b){
+    if(b==12&&a<16)
+        System.out.println("Winter");
+    if(b>0&&b<3)
+        System.out.println("Winter");
+    if(b==3&&a<15)
+        System.out.println("Winter");
+        
+    if(b==3&&a>15)
+        System.out.println("Spring");
+    if(b>3&&b<6)
+        System.out.println("Spring");
+    if(b==6&&a<15)
+        System.out.println("Spring");
+        
+    if(b==6&&a<16)
+        System.out.println("Summer");
+    if(b>6&&b<9)
+        System.out.println("Summer");
+    if(b==9&&a<15)
+        System.out.println("Summer");
+        
+    if(b==9&&a<16)
+        System.out.println("Fall");
+    if(b>9&&b<12)
+        System.out.println("Fall");
+    if(b==12&&a<15)
+        System.out.println("Fall");
+}
